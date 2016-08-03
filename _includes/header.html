@@ -14,9 +14,13 @@
       </a>
 
       <div class="trigger">
-        {% assign tabs = site.pages | sort: 'weight' %}
-        {% for p in tabs %}
-          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+        {% for menuitem in site.menuitems %}
+            {% if menuitem.url == page.dir %}
+                {% assign class = "active" %}
+            {% else %}
+                {% assign class = "normal" %}
+            {% endif %}
+          <a class="page-link {{ class }}" href="{{ menuitem.url }}">{{ menuitem.title }}</a>
         {% endfor %}
       </div>
     </nav>

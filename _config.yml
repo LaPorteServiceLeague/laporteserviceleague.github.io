@@ -20,3 +20,20 @@ url: "http://laporteserviceleague.github.io" # the base hostname & protocol for 
 # Build settings
 markdown: kramdown
 include: ['_pages']
+menuitems:
+  - url: /
+    title: Home
+  - url: /mission/
+    title: Mission
+  - url: /history/
+    title: Our Past
+  - url: /present/
+    title: Our Present
+  - url: /future/
+    title: Our Future
+  - url: /play/
+    title: Play
+  - url: /events/
+    title: Events
+  - url: /contact/
+    title: Contact
