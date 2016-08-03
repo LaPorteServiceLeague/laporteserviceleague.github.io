@@ -2,7 +2,6 @@
 layout: page
 title: Events
 permalink: /events/
-weight: 6
 ---
 
 This is the events page.
