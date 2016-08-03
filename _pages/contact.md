@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+weight: 7
 ---
 
 LaPorte Service League<br />

@@ -2,6 +2,7 @@
 layout: page
 title: Our Future
 permalink: /future/
+weight: 4
 ---
 
 LaPorte Service League is an organization dedicated to the community.
