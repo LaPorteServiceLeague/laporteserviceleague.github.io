@@ -3,9 +3,7 @@ body {
   @include background-image-retina(squairy_light, png, 200px, 200px);
 }
 
-/**
- * Page content
- */
+// Page content
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -35,9 +33,7 @@ body {
 
 
 
-/**
- * Posts
- */
+// Posts
 .post-header {
     margin-bottom: $spacing-unit;
 }

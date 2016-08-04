@@ -1,5 +1,4 @@
-// retina background images
-
+// Retina background images
 @mixin background-image-retina($file, $type, $width, $height) {
   background-image: url('/images/' + $file + '.' + $type);
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
