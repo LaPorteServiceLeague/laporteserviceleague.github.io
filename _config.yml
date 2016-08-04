@@ -37,3 +37,4 @@ menuitems:
     title: Events
   - url: /contact/
     title: Contact
+keep_files: ["js/main.min.js", "css/main.css"]
