@@ -10,6 +10,7 @@
     line-height: 100px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    padding: 26px 0;
     /* float: left; */
     display: block;
     width: 100%;
@@ -19,6 +20,12 @@
     &,
     &:visited {
         color: $white
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      max-width: 600px;
     }
 }
 

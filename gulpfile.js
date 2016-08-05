@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
+var sassLint    = require('gulp-sass-lint');
 var concat      = require('gulp-concat');
 var uglify      = require('gulp-uglify');
 var rename      = require("gulp-rename");
@@ -44,6 +45,9 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
  */
 gulp.task('sass', function () {
     return gulp.src('_scss/main.scss')
+        .pipe(sassLint())
+        .pipe(sassLint.format())
+        .pipe(sassLint.failOnError())
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify

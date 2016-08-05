@@ -1,9 +1,9 @@
-@charset "utf-8";
+@charset 'utf-8';
 
 // Content area
-$content-width:    800px;
-$on-palm:          600px;
-$on-laptop:        800px;
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 800px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -13,16 +13,16 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-@import "_elements/variables";
-@import "_elements/base";
-@import "_elements/syntax-highlighting";
-@import "_elements/mixins";
-@import "_layouts/layout";
+@import '_elements/variables';
+@import '_elements/base';
+@import '_elements/syntax-highlighting';
+@import '_elements/mixins';
+@import '_layouts/layout';
 
-@import "_layouts/header";
-@import "_layouts/footer";
+@import '_layouts/header';
+@import '_layouts/footer';
