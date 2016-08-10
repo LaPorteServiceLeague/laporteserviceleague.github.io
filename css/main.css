@@ -311,7 +311,6 @@ body {
   line-height: 100px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  padding: 26px 0;
   /* float: left; */
   display: block;
   width: 100%;
@@ -322,7 +321,21 @@ body {
   .site-title .logo {
     display: block;
     margin: 0 auto;
-    max-width: 600px; }
+    padding: 26px;
+    width: 100%;
+    background: #ff4500; }
+    .site-title .logo img {
+      max-width: 600px;
+      height: auto; }
+
+.logo {
+  display: block;
+  width: 100%;
+  background: #012538; }
+  .logo .logo_inner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 26px; }
 
 .site-nav {
   display: block;
