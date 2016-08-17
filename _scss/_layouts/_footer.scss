@@ -1,5 +1,14 @@
 // Footer
 .site-footer {
-    border-top: 1px solid $grey-color-dark;
-    padding: $spacing-unit 0;
+    width: 100%;
+    background: #012538;
+    margin: 24px 0;
+    margin: 1.714285714rem 0;
+    padding: 12px 0;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
 }
