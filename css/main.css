@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -5,7 +6,7 @@ dl, dd, ol, ul, figure {
   padding: 0; }
 
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Taz Light", Helvetica, sans-serif;
   color: #111;
   background-color: #efa7ca;
   -webkit-text-size-adjust: 100%;
@@ -43,7 +44,9 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: #2a7ae2;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
   a:visited {
     color: #1756a9; }
   a:hover {
@@ -244,6 +247,69 @@ pre {
   .highlight .il {
     color: #099; }
 
+@font-face {
+  font-family: 'Taz Light';
+  src: url("/fonts/taz/taz-light-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-light-webfont.woff") format("woff"), url("/fonts/taz/taz-light-webfont.ttf") format("truetype"), url("/fonts/taz/taz-light-webfont.svg") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz Light Italic';
+  src: url("/fonts/taz/taz-lightitalic-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-lightitalic-webfont.woff") format("woff"), url("/fonts/taz/taz-lightitalic-webfont.ttf") format("truetype"), url("/fonts/taz/taz-lightitalic-webfont.svg") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz Semi Light';
+  src: url("/fonts/taz/taz-seml-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-seml-webfont.woff") format("woff"), url("/fonts/taz/taz-seml-webfont.ttf") format("truetype"), url("/fonts/taz/taz-seml-webfont.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz';
+  src: url("/fonts/taz/taz-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-webfont.woff") format("woff"), url("/fonts/taz/taz-webfont.ttf") format("truetype"), url("/fonts/taz/taz-webfont.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz Semibold';
+  src: url("/fonts/taz/taz-semibold-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-semibold-webfont.woff") format("woff"), url("/fonts/taz/taz-semibold-webfont.ttf") format("truetype"), url("/fonts/taz/taz-semibold-webfont.svg") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz Bold';
+  src: url("/fonts/taz/taz-bold-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-bold-webfont.woff") format("woff"), url("/fonts/taz/taz-bold-webfont.ttf") format("truetype"), url("/fonts/taz/taz-bold-webfont.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz ExtraBold';
+  src: url("/fonts/taz/taz-extrabold-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-extrabold-webfont.woff") format("woff"), url("/fonts/taz/taz-extrabold-webfont.ttf") format("truetype"), url("/fonts/taz/taz-extrabold-webfont.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz Black';
+  src: url("/fonts/taz/taz-black-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-black-webfont.woff") format("woff"), url("/fonts/taz/taz-black-webfont.ttf") format("truetype"), url("/fonts/taz/taz-black-webfont.svg") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Taz UltraBlack';
+  src: url("/fonts/taz/taz-ultrablack-webfont.eot");
+  src: local("☺"), url("/fonts/taz/taz-ultrablack-webfont.woff") format("woff"), url("/fonts/taz/taz-ultrablack-webfont.ttf") format("truetype"), url("/fonts/taz/taz-ultrablack-webfont.svg") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
 body {
   background-color: #efa7ca;
   background-image: url("/images/squairy_light.png"); }
@@ -331,7 +397,8 @@ body {
 .logo {
   display: block;
   width: 100%;
-  background: #012538; }
+  background: #012538;
+  margin-bottom: 20px; }
   .logo .logo_inner {
     max-width: 600px;
     margin: 0 auto;
@@ -345,10 +412,31 @@ body {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
-    line-height: 1.5; }
+    color: #fff;
+    line-height: 1.5;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    border-bottom: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 20px;
+    letter-spacing: .025em;
+    text-decoration: none;
+    padding: 7px 10px; }
+    .site-nav .page-link .trigger a:hover {
+      color: #111; }
+    .site-nav .page-link:hover {
+      color: #efa7ca;
+      background: #012538;
+      -webkit-border-radius: 3px;
+              border-radius: 3px; }
     .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
+      margin-right: 15px; }
+  .site-nav .active {
+    font-family: "Taz Bold", Helvetica, sans-serif;
+    background: #012538;
+    -webkit-border-radius: 3px;
+            border-radius: 3px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
