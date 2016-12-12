@@ -373,23 +373,23 @@ pre code.hljs {
 
 	}
 	/*
-	*	Site Navigation (left)
+	*	Site Description/Signature (left)
 	*/
-	.site-navigation {
+	.site-signature {
+		margin-top: 1em;
 		@include span-columns(12);
-		@include media ($mobile) {
-			@include span-columns(6);
-		}
 		@include media ($tablet) {
-			@include span-columns(4);
+			@include span-columns(8);
+			margin-right: 1.2em;
+			margin-top: 0;
 		}
 		font-size: 0.9em;
-		ul {
-			@extend %default-ul;
+		a {
+			text-decoration: underline;
 		}
 	}
 	/*
-	*	Contact Info (center)
+	*	Contact Info (right)
 	*/
 	.site-contact {
 		margin-top: 1em;
@@ -410,22 +410,6 @@ pre code.hljs {
 		}
 		ul {
 			@extend %default-ul;
-		}
-	}
-	/*
-	*	Site Description/Signature (right)
-	*/
-	.site-signature {
-		margin-top: 1em;
-		@include span-columns(12);
-		@include media ($tablet) {
-			@include span-columns(4);
-			margin-right: 0;
-			margin-top: 0;
-		}
-		font-size: 0.9em;
-		a {
-			text-decoration: underline;
 		}
 	}
 }
