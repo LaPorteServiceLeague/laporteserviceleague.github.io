@@ -12,10 +12,13 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+        {% for menuitem in site.menuitems %}
+            {% if menuitem.url == page.dir %}
+                {% assign class = "active" %}
+            {% else %}
+                {% assign class = "normal" %}
+            {% endif %}
+          <li class="nav-link"><a class="page-link {{ class }}" href="{{ menuitem.url }}">{{ menuitem.title }}</a></li>
         {% endfor %}
       </ul>
     </nav>

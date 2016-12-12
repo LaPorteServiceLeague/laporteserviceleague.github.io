@@ -9,22 +9,38 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: La Porte Service League
+subtitle: "Dedicated to community since 1932"
+email: info@laporteserviceleague.com
+#name: Ben Centra
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  La Porte Service League is an independent women’s organization that seeks to enrich the LaPorte area with community assistance programs, youth outreach, and the arts. We are particularly well known for our annual children’s play (produced entirely by our members), which is attended by three to five thousand students each winter. Our members individually give at least 50 hours of service per year throughout our programs. In fact, the membership contributed over 4700 hours last year!
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
+#baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
 url: "http://bencentra.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+include: ['_pages']
+menuitems:
+  - url: /mission/
+    title: Mission
+  - url: /history/
+    title: Our Past
+  - url: /present/
+    title: Our Present
+  - url: /future/
+    title: Our Future
+  - url: /play/
+    title: Play
+  - url: /events/
+    title: Events
+  - url: /contact/
+    title: Contact
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
