@@ -23,3 +23,13 @@ td,
 th {
   vertical-align: middle;
 }
+
+tr {
+  background-color: $lpsl-pink-lighter;
+  &.odd {
+    background-color: $base-background-color;
+  }
+  &:first-child {
+    border-top: $base-border;
+  }
+}

@@ -125,12 +125,12 @@ pre code.hljs {
   }
   .logo {
     float: left;
-    height: 4em;
+    height: 6em;
     @include media ($tablet) {
     	padding-left: $em-base;
     }
     img {
-      max-height: 2.5em;
+      max-height: 4.5em;
       margin-top: 0.75em;
       padding-right: 1em;
     }
@@ -140,10 +140,10 @@ pre code.hljs {
   }
   nav {
     float: none;
-    padding: 1.25em 0;
+    padding: 2em 0;
     @include media ($tablet) {
       float: right;
-      line-height: 1.5em;
+      line-height: 2em;
     }
   }
   ul.navigation-menu {
@@ -343,6 +343,19 @@ pre code.hljs {
 			margin: auto;
 			padding-bottom: 0.5em;
  		}
+	}
+}
+
+.gallery {
+	display: block;
+	overflow: auto;
+	margin: 2em 0;
+	.item {
+		@include span-columns(4);
+		@include omega(3n);
+		img {
+			width: 100%;
+		}
 	}
 }
 

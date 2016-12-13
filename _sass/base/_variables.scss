@@ -45,6 +45,8 @@ $highlight-color: tint($action-color, 33%);
 
 // LPSL Colors
 $lpsl-blue: #012538;
+$lpsl-pink: #f9cbdf;
+$lpsl-pink-lighter: lighten($lpsl-pink, 10%);
 
 // Border
 $base-border-color: $light-gray;

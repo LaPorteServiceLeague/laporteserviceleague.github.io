@@ -9,17 +9,17 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: La Porte Service League
+title: LaPorte Service League
 subtitle: "Dedicated to community since 1932"
 email: info@laporteserviceleague.com
 #name: Ben Centra
 description: >
-  La Porte Service League is an independent women’s organization that seeks to enrich the LaPorte area with community assistance programs, youth outreach, and the arts. We are particularly well known for our annual children’s play (produced entirely by our members), which is attended by three to five thousand students each winter. Our members individually give at least 50 hours of service per year throughout our programs. In fact, the membership contributed over 4700 hours last year!
+  LaPorte Service League is an independent women’s organization that seeks to enrich the LaPorte area with community assistance programs, youth outreach, and the arts. We are particularly well known for our annual children’s play (produced entirely by our members), which is attended by three to five thousand students each winter. Our members individually give at least 50 hours of service per year throughout our programs. In fact, the membership contributed over 4700 hours last year!
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 #baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
-url: "http://bencentra.github.io" # the base hostname & protocol for your site
+url: "http://laporteserviceleague.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
@@ -44,7 +44,7 @@ menuitems:
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false
-highlightjs_theme: "monokai_sublime"
+highlightjs_theme: "agate"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
@@ -203,12 +203,12 @@ social:
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
     fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
+    fb_image_width: 581
+    fb_image_height: 604
     fb_image_type: "image/png"
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_repo: "https://github.com/LaPorteServiceLeague/laporteserviceleague.github.io/"
     os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_src: "git@github.com:LaPorteServiceLeague/laporteserviceleague.github.io.git"
