@@ -100,7 +100,7 @@ pre code.hljs {
 *	Header
 */
 .navigation {
-	box-shadow: 0 2px $highlight-color;
+	box-shadow: 0 2px $lpsl-blue;
 	padding: 0 1em;
 	margin: 0;
 	/*
@@ -196,7 +196,7 @@ pre code.hljs {
 .page-content {
 	.wrapper {
 		@include outer-container;
-		padding: 1em;
+		padding: 3em 0 5em 0;
 	}
 	/*
 	*	index.html
@@ -351,8 +351,8 @@ pre code.hljs {
 */
 .site-footer {
 	$link-color: $white;
-	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
+	padding: 2em 1em 2em 1em;
+	background-color: $lpsl-blue;
 	color: $white;
 	a {
 	  color: $link-color;
@@ -380,8 +380,9 @@ pre code.hljs {
 		@include span-columns(12);
 		@include media ($tablet) {
 			@include span-columns(8);
-			margin-right: 1.2em;
+			margin-right: 0;
 			margin-top: 0;
+			padding-right: 3em;
 		}
 		font-size: 0.9em;
 		a {
@@ -410,6 +411,10 @@ pre code.hljs {
 		}
 		ul {
 			@extend %default-ul;
+		}
+
+		.address-footer {
+			margin-bottom: 1em;
 		}
 	}
 }
