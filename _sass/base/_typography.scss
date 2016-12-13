@@ -77,3 +77,10 @@ picture {
 code {
 
 }
+
+blockquote {
+  padding: 2em 2em 1em 2em;
+  margin: 1.5em 0;
+  // border: $base-border;
+  background-color: $lpsl-pink-lighter;
+}

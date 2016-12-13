@@ -4,6 +4,18 @@ title: Play
 permalink: /play/
 ---
 
-Thank you for your interest in the 2016 performance of _Little Red Riding Hood and the Magic Dragon!_ This marks our 83rd year of bringing live theater to the children of LaPorte. Research has shown that student engagement in dramatic retelling of a story greatly improves understanding of the story. We strive for our performances to inspire children of all ages to indulge in using their imagination, to laugh, to experience the magic of live theater.
-
-To reserve seats for your organization, [please complete this form](http://goo.gl/forms/NVwuEiQXUn).
+{% for post in site.categories.Play limit:1 %}
+  <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+  <p>{{ post.content }}</p>
+{% endfor %}
+<hr />
+<h3 class="prev_events">Previous LaPorte Service League plays:</h3>
+<ul class="posts-list">
+  {% for post in site.categories.Play offset:1 %}
+    <li>
+      <span class="post-date">{{ post.date | date: '%Y' }} -</span> 
+      <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
+    </li>
+  {% endfor %}
+</ul>
+{% if forloop.last == false %}<hr />{% endif %}

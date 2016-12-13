@@ -250,6 +250,11 @@ pre code.hljs {
 		display: block;
 		margin: auto;
 		width: 90%;
+		&.alignright {
+			float: right;
+			width: auto;
+			margin: 0 0 1em 1em;
+		}
 	}
 	/*
 	*	Posts
@@ -357,6 +362,16 @@ pre code.hljs {
 			width: 100%;
 		}
 	}
+}
+
+.scholarship {
+	display: block;
+	overflow: auto;
+	margin: 2em 0;
+}
+
+.prev_events {
+	margin-top: 4em;
 }
 
 /*
