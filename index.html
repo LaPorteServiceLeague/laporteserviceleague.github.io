@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
-  <p>La Porte Service League is an independent women’s organization that seeks to enrich the LaPorte area with community assistance programs, youth outreach, and the arts. We are particularly well known for our annual children’s play (produced entirely by our members), which is attended by three to five thousand students each winter. Our members individually give at least 50 hours of service per year throughout our programs. In fact, the membership contributed over 4700 hours last year!</p>
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
+    <header class="site-header">
+      <h1 class="title">{{ site.title }}</h1>
+      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+    </header>
+  </div>
+</div>
 
 </div>
