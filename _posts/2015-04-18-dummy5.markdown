@@ -43,4 +43,4 @@ Members of Service League collaborate to create a packet of materials that can b
 <hr />
 
 #### Frequently Asked Questions
-For a list of Frequently Asked Questions relating to the annual LaPorte Service League Play, <a href="http://www.laporteserviceleague.com/faq" target="_blank">click here</a>.
+For a list of Frequently Asked Questions relating to the annual LaPorte Service League Play, <a href="/FAQ/" target="_blank">click here</a>.
