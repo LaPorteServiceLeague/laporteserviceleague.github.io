@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Contact
-permalink: /contact/
+layout: page
+permalink: "/contact/"
 ---
 
 LaPorte Service League<br />

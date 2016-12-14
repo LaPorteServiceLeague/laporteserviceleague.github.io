@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Our Past
-permalink: /history/
+layout: page
+permalink: "/history/"
 ---
 
 _“The primary objective and foremost ideal for which Service League was organized is service to the community. Service means the efforts of each individual member to contribute of her time, skills, and abilities to further the growth and development of the cultural life of our community.”

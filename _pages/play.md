@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Play
-permalink: /play/
+layout: page
+permalink: "/play/"
 ---
 
 {% for post in site.categories.Play limit:1 %}

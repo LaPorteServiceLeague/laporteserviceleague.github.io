@@ -1,10 +1,12 @@
 ---
+title: 2017 LaPorte Service League Play
+date: '2016-12-01 08:43:59'
 layout: post
-title:  "2017 LaPorte Service League Play"
-date:   2016-12-01 08:43:59
 author: 
-categories: Play
-tags: lorem
+categories:
+- Play
+tags:
+- lorem
 ---
 
 Thank you for your interest in the 2017 performance of **_The Top Job_**. This marks our 84th year of bringing live theater to the children of LaPorte. Research has shown that student engagement in dramatic retelling of a story greatly improves understanding of the story. We strive for our performances to inspire children of all ages to indulge in using their imagination, to laugh, to experience the magic of live theater.

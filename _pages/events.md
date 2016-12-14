@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Events
-permalink: /events/
+layout: page
+permalink: "/events/"
 ---
 
 {% for category in site.categories %}

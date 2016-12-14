@@ -1,10 +1,12 @@
 ---
+title: Dummy Post 4
+date: '2014-04-18 08:43:59'
 layout: post
-title:  "Dummy Post 4"
-date:   2014-04-18 08:43:59
 author: Ben Centra
-categories: Play
-tags: ipsum
+categories:
+- Play
+tags:
+- ipsum
 ---
 
 This is just a dummy post. Lorem ipsum and all the rest.

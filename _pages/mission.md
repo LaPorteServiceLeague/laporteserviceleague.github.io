@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Mission
-permalink: /mission/
+layout: page
+permalink: "/mission/"
 ---
 
 LaPorte Service League is an organization of women whose contributions of time, abilities and artistry are dedicated to the enrichment of our community.

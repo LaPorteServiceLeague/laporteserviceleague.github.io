@@ -1,7 +1,7 @@
 ---
-layout: page
 title: FAQ
-permalink: /FAQ/
+layout: page
+permalink: "/FAQ/"
 ---
 
 Thank you for your interest in attending LaPorte Service League’s annual play! We look forward to entertaining you! Below are Frequently Asked Questions about attending our annual play.

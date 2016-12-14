@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Our Future
-permalink: /future/
+layout: page
+permalink: "/future/"
 ---
 
 LaPorte Service League is an organization dedicated to the community.
